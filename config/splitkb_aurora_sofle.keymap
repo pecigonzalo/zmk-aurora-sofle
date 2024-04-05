@@ -7,6 +7,12 @@
     chain-length = <35>; // Uncomment if using both per-key and underglow LEDs
 };
 
+&mt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+    quick-tap-ms = <0>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
