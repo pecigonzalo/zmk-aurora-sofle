@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 &led_strip {
-    chain-length = <6>;
     chain-length = <35>; // Uncomment if using both per-key and underglow LEDs
 };
 
