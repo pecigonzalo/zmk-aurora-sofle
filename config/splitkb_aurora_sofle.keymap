@@ -57,11 +57,11 @@
 
         colemak {
             bindings = <
-&trans  &trans      &trans      &trans       &trans        &trans                    &trans  &trans        &trans       &trans      &trans    &trans
-&trans  &kp Q       &kp W       &kp F        &kp P         &kp B                     &kp J   &kp L         &kp U        &kp Y       &kp LBKT  &kp RBKT
-&trans  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G                     &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &kp O     &kp APOS
-&trans  &kp Z       &kp X       &kp C        &kp D         &kp V   &trans    &trans  &kp K   &kp H         &kp COMMA    &kp DOT     &kp FSLH  &trans
-                    &trans      &trans       &trans        &trans  &trans    &trans  &trans  &trans        &trans       &trans
+&trans  &trans          &trans          &trans           &trans            &trans                    &trans  &trans            &trans           &trans          &trans          &trans
+&trans  &kp Q           &kp W           &kp F            &kp P             &kp B                     &kp J   &kp L             &kp U            &kp Y           &kp LBKT        &kp RBKT
+&trans  &lh_pht LGUI A  &lh_pht LALT R  &lh_pht LCTRL S  &lh_pht LSHIFT T  &kp G                     &kp M   &rh_pht RSHIFT N  &rh_pht RCTRL E  &rh_pht RALT I  &rh_pht RCMD O  &kp APOS
+&trans  &kp Z           &kp X           &kp C            &kp D             &kp V   &trans    &trans  &kp K   &kp H             &kp COMMA        &kp DOT         &kp FSLH        &trans
+                        &trans          &trans           &trans            &trans  &trans    &trans  &trans  &trans            &trans           &trans
             >;
         };
 
