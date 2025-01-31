@@ -69,7 +69,7 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans    &trans  &trans  &trans  &kp MINUS  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans    &trans  &trans  &trans  &kp MINUS  &kp EQUAL
 &trans  &trans  &trans  &trans  &trans  &kp LBKT                                        &kp RBKT  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &kp LBRC                                        &kp RBRC  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &kp LPAR  &rgb_ug RGB_TOG    &ext_power EP_TOG  &kp RPAR  &trans  &trans  &trans  &trans     &trans
