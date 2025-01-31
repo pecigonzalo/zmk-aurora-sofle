@@ -54,7 +54,7 @@
                              &to 0        &to 1         &kp LGUI       &lt 2 SPACE  &lt 3 SPACE    &kp RET          &kp RET  &kp BSPC       &kp RGUI      &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         colemak {
@@ -62,17 +62,17 @@
 &trans  &trans       &trans       &trans        &trans         &trans                    &trans  &trans         &trans        &trans       &trans       &trans
 &trans  &kp Q        &kp W        &kp F         &kp P          &kp B                     &kp J   &kp L          &kp U         &kp Y        &kp LBKT     &kp RBKT
 &trans  &mtl LGUI A  &mtl LALT R  &mtl LCTRL S  &mtl LSHIFT T  &kp G                     &kp M   &mtr RSHIFT N  &mtr RCTRL E  &mtr RALT I  &mtr RCMD O  &kp APOS
-&trans  &kp Z        &kp X        &kp C         &kp D          &kp V   &trans    &trans  &kp K   &kp H          &kp COMMA     &kp DOT      &kp FSLH     &trans
+&trans  &kp Z        &kp X        &kp C         &kp D          &kp V   &trans    &trans  &kp K   &kp H          &kp COMMA     &kp DOT      &kp FSLH     &kp NON_US_BSLH
                      &trans       &trans        &trans         &trans  &trans    &trans  &trans  &trans         &trans        &trans
             >;
         };
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LBKT                                        &kp RBKT  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LBRC                                        &kp RBRC  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LPAR  &rgb_ug RGB_TOG    &ext_power EP_TOG  &kp RPAR  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans    &trans  &trans  &trans  &kp MINUS  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &kp LBKT                                        &kp RBKT  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &kp LBRC                                        &kp RBRC  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &kp LPAR  &rgb_ug RGB_TOG    &ext_power EP_TOG  &kp RPAR  &trans  &trans  &trans  &trans     &trans
                 &trans  &trans  &trans  &trans    &trans             &trans             &trans    &trans  &trans  &trans
             >;
         };
