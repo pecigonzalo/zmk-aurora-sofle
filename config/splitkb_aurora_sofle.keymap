@@ -73,7 +73,7 @@
 &trans  &trans  &trans  &trans  &trans  &kp LBKT                                        &kp RBKT  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &kp LBRC                                        &kp RBRC  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &kp LPAR  &rgb_ug RGB_TOG    &ext_power EP_TOG  &kp RPAR  &trans  &trans  &trans  &trans     &trans
-                &trans  &trans  &trans  &trans    &to 4              &trans             &trans    &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &to 4              &to 5              &trans    &trans  &trans  &trans
             >;
         };
 
@@ -91,6 +91,16 @@
             bindings = <
 &trans  &trans       &trans       &trans        &trans         &trans                    &trans  &trans         &trans        &trans       &trans       &trans
 &trans  &kp W        &kp L        &kp Y         &kp P          &kp B                     &kp Z   &kp F          &kp O         &kp U        &kp LBKT     &kp RBKT
+&trans  &mtl LGUI C  &mtl LALT R  &mtl LCTRL S  &mtl LSHIFT T  &kp G                     &kp M   &mtr RSHIFT N  &mtr RCTRL E  &mtr RALT I  &mtr RCMD A  &kp APOS
+&trans  &kp Q        &kp J        &kp V         &kp D          &kp K   &trans    &trans  &kp X   &kp H          &kp COMMA     &kp DOT      &kp FSLH     &kp BACKSLASH
+                     &trans       &trans        &trans         &trans  &trans    &trans  &trans  &trans         &trans        &trans
+            >;
+        };
+
+        canaria {
+            bindings = <
+&trans  &trans       &trans       &trans        &trans         &trans                    &trans  &trans         &trans        &trans       &trans       &trans
+&trans  &kp W        &kp L        &kp Y         &kp P          &kp B                     &kp F   &kp F          &kp O         &kp U        &kp LBKT     &kp RBKT
 &trans  &mtl LGUI C  &mtl LALT R  &mtl LCTRL S  &mtl LSHIFT T  &kp G                     &kp M   &mtr RSHIFT N  &mtr RCTRL E  &mtr RALT I  &mtr RCMD A  &kp APOS
 &trans  &kp Q        &kp J        &kp V         &kp D          &kp K   &trans    &trans  &kp X   &kp H          &kp COMMA     &kp DOT      &kp FSLH     &kp BACKSLASH
                      &trans       &trans        &trans         &trans  &trans    &trans  &trans  &trans         &trans        &trans
