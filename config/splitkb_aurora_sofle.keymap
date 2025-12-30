@@ -17,7 +17,6 @@
     behaviors {
         mtl: mtl {
             compatible = "zmk,behavior-hold-tap";
-            label = "MTL";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -30,7 +29,6 @@
 
         mtr: mtr {
             compatible = "zmk,behavior-hold-tap";
-            label = "MTR";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
